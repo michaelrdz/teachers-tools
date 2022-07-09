@@ -1,5 +1,3 @@
-// JavaScript Document
- 
 // Función para recoger los datos de PHP según el navegador, se usa siempre.
 function objetoAjax(){
 	var xmlhttp=false;
