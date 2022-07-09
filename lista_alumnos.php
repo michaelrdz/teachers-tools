@@ -27,6 +27,11 @@ $grp='1';
 <html>
 <head>
 	<title>Lista de alumnos</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Michael Rodríguez, Karen Rodríguez, Luis Alberto Gonzalez, Emmanuel Reyes Jines" />
+    <meta name="Description" content="Juego piedra, papel, tijera, lagarto y Spock. Proyecto del curso Básico de JavaScript de Platzi">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
