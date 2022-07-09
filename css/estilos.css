@@ -1,0 +1,102 @@
+a {
+	cursor: pointer;
+}
+.icon_tab {
+	width: 32px;
+}
+header {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 12px;
+	background-color: #403F3C;
+}
+#menu {
+	position: relative;
+	width: 100%;
+}
+#menu_logo {
+	width: 49%;
+	display: inline-block;
+}
+#menu_logo img {
+	padding: 15px;
+	width: 148px;
+}
+#menu_btns {
+	width: 49%;
+	display: inline-block;
+	text-align: right;
+}
+.menu_btn {
+	flex: 1 1 auto;
+	margin: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+	border-radius: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.menu_btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu_btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.menu_btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.menu_btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+#cont_botonera {
+	width: 100%;
+}
+.btn_atras {
+	width: 18px;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 12px;
+	background-color: #403F3C;	
+}
+#pie_logo {
+	width: 100%;
+	text-align: center;
+}
+#pie_logo img {
+	width: 234px;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	#menu_btns {
+		height: 50px;
+	}
+	.menu_btn {
+		flex: 1 1 auto;
+		margin: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}	
+}
